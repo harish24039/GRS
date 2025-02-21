@@ -187,6 +187,7 @@ void startShell()
     int io_redirection_errorcheck;
     while(1)
     {
+        printf("Welcome To noobshell!\n");
         printf("noobshell~/:=");
         if(fgets(buf,MAX_COMMAND_SIZE,stdin) == NULL)
         {
